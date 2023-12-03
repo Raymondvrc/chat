@@ -1,0 +1,74 @@
+.commentContainer {
+  padding: 15px;
+  background-color: aliceblue;
+  margin: 15px;
+  
+}
+.userName{
+  margin: 0 0 15px 10px;
+  font-size: calc(1.2vw + 5px);
+
+}
+
+.userPost{
+  margin: 15px 0 15px 10px;
+  font-size: calc(1.2vw + 5px);
+
+}
+
+.inputForm {
+  left: 5vw;
+  max-height: 200px;
+  position: fixed;
+  bottom: 0;
+  width: 90%;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.PostForm {
+  width: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.PostForm:focus {
+  outline: none;
+  border-color: #007bff;
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+
+.PostForm::placeholder {
+  color: #aaa;
+}
+
+.PostForm:required {
+  border-color: #dc3545;
+}
+
+.submitButton {
+
+  right: 0.5vw;
+  position: absolute;
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 20px;
+  margin: 0px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.submitButton:hover {
+  background-color: #0056b3;
+}
+
+.pad{
+  margin-bottom: 120px;
+}
